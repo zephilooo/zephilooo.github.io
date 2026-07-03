@@ -1,2 +1,2 @@
-# pantheoncup
-Traitement et analyse des résultats de la coupe du Panthéon
+# Hugo Jeunier
+Chef opérateur - assistant caméra
