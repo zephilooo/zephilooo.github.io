@@ -100,7 +100,7 @@ input, select, textarea {
 	body, input, textarea, select {
 		font-family: 'Source Sans Pro', sans-serif;
 		font-weight: 400;
-		color: #595c62;
+		color: #e3e3e3;
 		font-size: 14pt;
 		line-height: 1.75em;
 		letter-spacing: 0.025em;
@@ -108,7 +108,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 700;
-		color: #484d55;
+		color: #ffffff;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -131,7 +131,7 @@ input, select, textarea {
 
 	strong, b {
 		font-weight: 700;
-		color: #484d55;
+		color: #ffffff;
 	}
 
 	blockquote {
@@ -1859,7 +1859,8 @@ input, select, textarea {
 			.feature-list h3:before {
 				display: block;
 				color: #fff;
-				background: #2f333b url("images/overlay.png");
+				background:#9d0208;
+				color:white;
 				border-radius: 2.5em;
 				text-align: center;
 				width: 2.5em;
@@ -2017,25 +2018,25 @@ input, select, textarea {
 			}
 
 		.wrapper.style2 {
-			background: #fff;
+			background: #120D10;
 		}
 
 			.wrapper.style2 .title {
-				background: #fff;
-				color: #484d55;
+				background: #120D10;
+				color: #ffffff;
 			}
 
 		.wrapper.style3 {
-			background: #f3f3f3 url("images/overlay.png");
+			background: #ffffff url("images/overlay.png");
 		}
 
 			.wrapper.style3 .title {
-				background: #f3f3f3 url("images/overlay.png");
+				background: #ffffff url("images/overlay.png");
 				color: #484d55;
 			}
 
 			.wrapper.style3 .image {
-				border: solid 10px #fff;
+				border: solid 50px #fff;
 			}
 
 /* Page Wrapper */
@@ -2137,8 +2138,9 @@ input, select, textarea {
 
 				#nav > ul > li > a, #nav > ul > li > span {
 					display: block;
-					color: #eee;
-					color: rgba(255, 255, 255, 0.75);
+					color: rgba(255,255,255,.65);
+					font-weight:300;
+					letter-spacing:.35em;
 					text-transform: uppercase;
 					text-decoration: none;
 					font-size: 1em;
@@ -2154,7 +2156,8 @@ input, select, textarea {
 				}
 
 				#nav > ul > li:hover > a {
-					color: #fff;
+					color: #ffffff;
+					border-bottom:2px solid #9d0208;
 				}
 
 				#nav > ul > li.active > a, #nav > ul > li.active > span {
@@ -2162,11 +2165,12 @@ input, select, textarea {
 				}
 
 	.dropotron {
-		background: #222835 url("images/overlay.png");
+		background: #120D10 url("images/overlay.png");
 		background-color: rgba(44, 50, 63, 0.925);
 		padding: 1.25em 1em 1.25em 1em;
 		border-radius: 0.35em;
-		box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
+		border:1px solid rgba(255,255,255,.08);
+		box-shadow:none;
 		min-width: 12em;
 		text-align: left;
 		margin-top: -1.25em;
@@ -2261,7 +2265,7 @@ input, select, textarea {
 	}
 
 		#highlights .highlight h3 {
-			color: #e97770;
+			color: #9d0208;
 			margin: 0 0 0.75em 0;
 			font-size: 1.15em;
 			letter-spacing: 0.05em;
@@ -2272,7 +2276,8 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		background: #282b34 url("images/overlay.png");
+		background: #120D10;
+		border-top:1px solid rgba(255,255,255,.06);
 		color: #eee;
 		color: rgba(255, 255, 255, 0.5);
 		padding-bottom: 6em;
@@ -2339,7 +2344,8 @@ input, select, textarea {
 			}
 
 		#footer .title {
-			background: #282b34 url("images/overlay.png");
+			background: #120D10;
+			border-top:1px solid rgba(255,255,255,.06);
 			color: #eee;
 		}
 
@@ -2366,7 +2372,8 @@ input, select, textarea {
 			}
 
 			#footer .feature-list h3:before {
-				background: #3d4249 url("images/overlay.png");
+				background:#9d0208;
+				color:white;
 			}
 
 /* Copyright */
@@ -2403,11 +2410,11 @@ input, select, textarea {
 				}
 
 		#copyright a {
-			color: inherit;
+			color: #d9d9d9;
 		}
 
 			#copyright a:hover {
-				color: #fff;
+				color: #ffffff;
 			}
 
 /* XLarge */
@@ -2641,13 +2648,13 @@ input, select, textarea {
 						height: 38px;
 						line-height: 38px;
 						text-align: center;
-						color: rgba(255, 255, 255, 0.75);
-						background-color: rgba(92, 95, 103, 0.5);
+						color: rgba(255, 255, 255, 0.95);
+						background-color: #120D10;
 						border-radius: 0.25em;
 					}
 
 					#titleBar .toggle:active:before {
-						background-color: rgba(92, 95, 103, 0.75);
+						background-color: #120D10;
 					}
 
 			#navPanel {
@@ -2671,7 +2678,7 @@ input, select, textarea {
 				top: 0;
 				width: 275px;
 				z-index: 10002;
-				background: #242730 url("images/overlay.png");
+				background: #120D10 url("images/overlay.png");
 				box-shadow: inset -3px 0px 4px 0px rgba(0, 0, 0, 0.1);
 			}
 
